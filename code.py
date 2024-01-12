@@ -21,7 +21,7 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.1, auto_write=Fal
 pixel_pin_top = board.GP12
 num_pixels_top = 6
 
-pixels_top = neopixel.NeoPixel(pixel_pin_top, num_pixels_top, brightness=0.1, auto_write=False)
+pixels_top = neopixel.NeoPixel(pixel_pin_top, num_pixels_top, brightness=0.01, auto_write=False)
 
 
 def color_chase(color, wait):
